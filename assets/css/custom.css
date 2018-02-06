@@ -1,0 +1,75 @@
+.alert-callout {
+	margin: 3px;
+}
+
+.alert-callout.alert-success > i {
+	color: #4AAA4D;
+}
+.alert-callout.alert-danger > i {
+	color: #F44336;
+}
+.alert-callout.alert-warning > i {
+	color: #FF9800;
+}
+
+/* Sembunyikan tombol Print bawaan DataTable BEGIN */
+#ToolTables_datatable2_4 {
+	display: none;
+}
+/* END */
+
+/* Slacker Modal */
+.modal-slacker {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+.modal-slacker .modal-content {
+  margin-top: 0%;
+  border-radius: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  height: 100%;
+  overflow: auto;
+}
+
+.modal-slacker .modal-header .close {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+  opacity: 1;
+  padding: 10px 17px;
+  font-size: 27px;
+}
+
+.modal-slacker .modal-title {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .modal-slacker .modal-header,
+  .modal-slacker .modal-body,
+  .modal-slacker .modal-footer {
+    width: 100%;
+  }
+
+  .slacker-modal1,
+  .slacker-modal2,
+  .slacker-modal-pgw {
+    margin-right: -17px;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-slacker .modal-header,
+  .modal-slacker .modal-body,
+  .modal-slacker .modal-footer {
+    width: 100%;
+    margin: 30px auto;
+  }
+
+}
+
+/* END SLACK MODAL */
